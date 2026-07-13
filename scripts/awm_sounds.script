@@ -1,0 +1,16 @@
+-- AWM sound resources.
+
+SoundLoad("wz_ddb_awm_sound_unsuppressed","sounds/awm_unsuppressed.ogg");
+SoundLoad("wz_ddb_awm_sound_suppressed","sounds/awm_suppressed.ogg");
+SoundLoad("wz_ddb_awm_sound_magazine_in","sounds/awm_magazine_in.ogg");
+SoundLoad("wz_ddb_awm_sound_magazine_out","sounds/awm_magazine_out.ogg");
+
+WeaponModSilencerConfigure("wz_ddb_awm_front_compressor",SoundGet("wz_ddb_awm_sound_suppressed"));
+WeaponModSilencerConfigure("wz_ddb_awm_front_compressor_long",SoundGet("wz_ddb_awm_sound_suppressed"));
+
+WeaponSetSounds(
+    "wz_ddb_awm",
+    "wz_ddb_awm_sound_unsuppressed",
+    "wz_ddb_awm_sound_magazine_in",
+    "wz_ddb_awm_sound_magazine_out"
+);

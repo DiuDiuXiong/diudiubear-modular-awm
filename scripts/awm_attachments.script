@@ -1,0 +1,94 @@
+-- AWM modular attachments: three backs, three fronts, two magazines.
+
+SpriteLoad("wz_ddb_awm_stock_basic_inventory","items/inventory/awm_stock_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_stock_basic_ingame","items/cropped/awm_stock_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_stock_short_inventory","items/inventory/awm_stock_short.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_stock_short_ingame","items/cropped/awm_stock_short.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_stock_devil_inventory","items/inventory/awm_stock_devil.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_stock_devil_ingame","items/cropped/awm_stock_devil.png",1,0,0,0);
+
+SpriteLoad("wz_ddb_awm_front_basic_inventory","items/inventory/awm_front_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_front_basic_ingame","items/cropped/awm_front_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_front_compressor_inventory","items/inventory/awm_front_compressor.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_front_compressor_ingame","items/cropped/awm_front_compressor.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_front_compressor_long_inventory","items/inventory/awm_front_compressor_long.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_front_compressor_long_ingame","items/cropped/awm_front_compressor_long.png",1,0,0,0);
+
+SpriteLoad("wz_ddb_awm_magazine_basic_inventory","items/inventory/awm_magazine_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_magazine_basic_ingame","items/cropped/awm_magazine_basic.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_magazine_long_inventory","items/inventory/awm_magazine_long.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_magazine_long_ingame","items/cropped/awm_magazine_long.png",1,0,0,0);
+
+WeaponModCreate("wz_ddb_awm_stock_basic","stock",0,20,4,-6,0,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_stock_basic","AWM Back - Basic");
+ItemSetDescription("wz_ddb_awm_stock_basic","The basic AWM rear stock assembly. Adds a modest damage increase.");
+ItemSetSpriteInventory("wz_ddb_awm_stock_basic","wz_ddb_awm_stock_basic_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_stock_basic","wz_ddb_awm_stock_basic_ingame");
+ItemSetPriceValue("wz_ddb_awm_stock_basic",100000);
+ItemSetWeight("wz_ddb_awm_stock_basic",0.45);
+ItemSetStackLimit("wz_ddb_awm_stock_basic",1);
+
+WeaponModCreate("wz_ddb_awm_stock_short","stock",0,-50,12,2,10,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_stock_short","AWM Back - Short");
+ItemSetDescription("wz_ddb_awm_stock_short","A minimal rear assembly that sacrifices heavy damage for faster handling and reload speed.");
+ItemSetSpriteInventory("wz_ddb_awm_stock_short","wz_ddb_awm_stock_short_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_stock_short","wz_ddb_awm_stock_short_ingame");
+ItemSetPriceValue("wz_ddb_awm_stock_short",80000);
+ItemSetWeight("wz_ddb_awm_stock_short",0.20);
+ItemSetStackLimit("wz_ddb_awm_stock_short",1);
+
+WeaponModCreate("wz_ddb_awm_stock_devil","stock",0,100,7,-9,0,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_stock_devil","AWM Back - Devil");
+ItemSetDescription("wz_ddb_awm_stock_devil","A distinctive tuned rear stock with violet details and a major damage increase.");
+ItemSetSpriteInventory("wz_ddb_awm_stock_devil","wz_ddb_awm_stock_devil_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_stock_devil","wz_ddb_awm_stock_devil_ingame");
+ItemSetPriceValue("wz_ddb_awm_stock_devil",250000);
+ItemSetWeight("wz_ddb_awm_stock_devil",0.48);
+ItemSetStackLimit("wz_ddb_awm_stock_devil",1);
+
+WeaponModCreate("wz_ddb_awm_front_basic","brake",0,20,1,-1,0,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_front_basic","AWM Front - Basic");
+ItemSetDescription("wz_ddb_awm_front_basic","The standard AWM muzzle assembly with a modest damage increase.");
+ItemSetSpriteInventory("wz_ddb_awm_front_basic","wz_ddb_awm_front_basic_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_front_basic","wz_ddb_awm_front_basic_ingame");
+ItemSetPriceValue("wz_ddb_awm_front_basic",75000);
+ItemSetWeight("wz_ddb_awm_front_basic",0.15);
+ItemSetStackLimit("wz_ddb_awm_front_basic",1);
+
+WeaponModCreate("wz_ddb_awm_front_compressor","silencer",0,80,2,-2,0,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_front_compressor","AWM Front - Compressor");
+ItemSetDescription("wz_ddb_awm_front_compressor","A short compressed-sound front assembly with a strong damage increase.");
+ItemSetSpriteInventory("wz_ddb_awm_front_compressor","wz_ddb_awm_front_compressor_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_front_compressor","wz_ddb_awm_front_compressor_ingame");
+ItemSetPriceValue("wz_ddb_awm_front_compressor",175000);
+ItemSetWeight("wz_ddb_awm_front_compressor",0.25);
+ItemSetStackLimit("wz_ddb_awm_front_compressor",1);
+
+WeaponModCreate("wz_ddb_awm_front_compressor_long","silencer",0,150,3,-4,0,false,["wz_ddb_awm"]);
+ItemSetName("wz_ddb_awm_front_compressor_long","AWM Front - Compressor Long");
+ItemSetDescription("wz_ddb_awm_front_compressor_long","The strongest compressed-sound AWM front assembly, tuned for maximum damage.");
+ItemSetSpriteInventory("wz_ddb_awm_front_compressor_long","wz_ddb_awm_front_compressor_long_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_front_compressor_long","wz_ddb_awm_front_compressor_long_ingame");
+ItemSetPriceValue("wz_ddb_awm_front_compressor_long",300000);
+ItemSetWeight("wz_ddb_awm_front_compressor_long",0.38);
+ItemSetStackLimit("wz_ddb_awm_front_compressor_long",1);
+
+WeaponModCreate("wz_ddb_awm_magazine_basic","magazine",0,0,0,0,0,false,["wz_ddb_awm"]);
+WeaponSetMagazineModCapacity("wz_ddb_awm_magazine_basic",5);
+ItemSetName("wz_ddb_awm_magazine_basic","AWM Magazine - Basic");
+ItemSetDescription("wz_ddb_awm_magazine_basic","A compact 5-round AWM magazine.");
+ItemSetSpriteInventory("wz_ddb_awm_magazine_basic","wz_ddb_awm_magazine_basic_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_magazine_basic","wz_ddb_awm_magazine_basic_ingame");
+ItemSetPriceValue("wz_ddb_awm_magazine_basic",50000);
+ItemSetWeight("wz_ddb_awm_magazine_basic",0.18);
+ItemSetStackLimit("wz_ddb_awm_magazine_basic",1);
+
+WeaponModCreate("wz_ddb_awm_magazine_long","magazine",0,50,1,0,-1,false,["wz_ddb_awm"]);
+WeaponSetMagazineModCapacity("wz_ddb_awm_magazine_long",10);
+ItemSetName("wz_ddb_awm_magazine_long","AWM Magazine - Long");
+ItemSetDescription("wz_ddb_awm_magazine_long","A larger 10-round AWM magazine with a high-pressure damage increase.");
+ItemSetSpriteInventory("wz_ddb_awm_magazine_long","wz_ddb_awm_magazine_long_inventory");
+ItemSetSpriteIngame("wz_ddb_awm_magazine_long","wz_ddb_awm_magazine_long_ingame");
+ItemSetPriceValue("wz_ddb_awm_magazine_long",200000);
+ItemSetWeight("wz_ddb_awm_magazine_long",0.28);
+ItemSetStackLimit("wz_ddb_awm_magazine_long",1);

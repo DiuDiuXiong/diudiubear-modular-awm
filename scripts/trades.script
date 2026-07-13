@@ -1,0 +1,11 @@
+-- Add the AWM platform to the Barman.
+TraderAddItem("bar","wz_ddb_awm",1,0);
+TraderAddItem("bar","wz_ddb_awm_red_ammo",200,0);
+TraderAddItem("bar","wz_ddb_awm_stock_basic",3,0);
+TraderAddItem("bar","wz_ddb_awm_stock_short",3,0);
+TraderAddItem("bar","wz_ddb_awm_stock_devil",2,0);
+TraderAddItem("bar","wz_ddb_awm_front_basic",3,0);
+TraderAddItem("bar","wz_ddb_awm_front_compressor",2,0);
+TraderAddItem("bar","wz_ddb_awm_front_compressor_long",2,0);
+TraderAddItem("bar","wz_ddb_awm_magazine_basic",3,0);
+TraderAddItem("bar","wz_ddb_awm_magazine_long",2,0);

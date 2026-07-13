@@ -1,0 +1,6 @@
+-- Create the AWM factory attachment layout.
+
+WeaponSetWeaponModData("wz_ddb_awm","stock","wz_ddb_awm_stock_basic",false,4,12);
+WeaponSetWeaponModData("wz_ddb_awm","brake","wz_ddb_awm_front_basic",false,72,11);
+WeaponSetWeaponModData("wz_ddb_awm","magazine","wz_ddb_awm_magazine_long",true,32,17);
+WeaponSetWeaponModData("wz_ddb_awm","scope","no_item",false,34,9);

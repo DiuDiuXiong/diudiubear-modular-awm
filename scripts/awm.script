@@ -1,0 +1,33 @@
+-- Create the custom red AWM ammunition and the AWM receiver.
+
+SpriteLoad("wz_ddb_awm_red_ammo_sprite","items/inventory/awm_red_ammo.png",1,0,0,0);
+ItemCreateAmmo("wz_ddb_awm_red_ammo","a762x51",0,0,0.05,"sniper",1,100,0,0);
+ItemSetName("wz_ddb_awm_red_ammo",".338 Red Magnum");
+ItemSetDescription("wz_ddb_awm_red_ammo","A red-cased heavy precision cartridge made for Diu Diu Bear's AWM platform. Loaded for maximum armour penetration.");
+ItemSetSpriteInventory("wz_ddb_awm_red_ammo","wz_ddb_awm_red_ammo_sprite");
+ItemSetSpriteIngame("wz_ddb_awm_red_ammo","wz_ddb_awm_red_ammo_sprite");
+ItemSetPriceValue("wz_ddb_awm_red_ammo",10000);
+ItemSetWeight("wz_ddb_awm_red_ammo",0.05);
+ItemSetStackLimit("wz_ddb_awm_red_ammo",80);
+
+SpriteLoad("wz_ddb_awm_body_inventory_v2","items/awm_body.png",1,0,0,0);
+SpriteLoad("wz_ddb_awm_body_ingame_v2","items/awm_body.png",1,0,20,16);
+
+WeaponCreate("wz_ddb_awm","sniper",true,"wz_ddb_awm_red_ammo","a762x51");
+ItemSetName("wz_ddb_awm","AWM");
+ItemSetDescription("wz_ddb_awm","A modular magnum-style bolt-action rifle. It accepts three AWM back assemblies, three front assemblies, two magazines, and standard scopes.");
+ItemSetSpriteInventory("wz_ddb_awm","wz_ddb_awm_body_inventory_v2");
+ItemSetSpriteIngame("wz_ddb_awm","wz_ddb_awm_body_ingame_v2");
+ItemSetPriceValue("wz_ddb_awm",750000);
+ItemSetWeight("wz_ddb_awm",6.5);
+ItemSetStackLimit("wz_ddb_awm",1);
+WeaponSetAmmo("wz_ddb_awm","wz_ddb_awm_red_ammo");
+WeaponSetCaliber("wz_ddb_awm","a762x51");
+WeaponSetWeaponType("wz_ddb_awm","sniper");
+WeaponSetFireMode("wz_ddb_awm","bolt_action");
+WeaponSetRateOfFire("wz_ddb_awm",36);
+WeaponSetReloadType("wz_ddb_awm","magazine");
+WeaponSetReloadTime("wz_ddb_awm",14);
+WeaponSetDamage("wz_ddb_awm",200);
+WeaponSetRecoil("wz_ddb_awm",95);
+WeaponSetErgonomics("wz_ddb_awm",18);
