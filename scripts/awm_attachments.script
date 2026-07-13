@@ -28,7 +28,7 @@ ItemSetPriceValue("wz_ddb_awm_stock_basic",100000);
 ItemSetWeight("wz_ddb_awm_stock_basic",0.45);
 ItemSetStackLimit("wz_ddb_awm_stock_basic",1);
 
-WeaponModCreate("wz_ddb_awm_stock_short","stock",0,-50,100,2,15,false,["wz_ddb_awm"]);
+WeaponModCreate("wz_ddb_awm_stock_short","stock",0,-50,100,2,-15,false,["wz_ddb_awm"]);
 ItemSetName("wz_ddb_awm_stock_short","AWM Back - Short");
 ItemSetDescription("wz_ddb_awm_stock_short","A minimal rear assembly that reduces damage by 50 in exchange for 100 ergonomics and 15% faster reloads.");
 ItemSetSpriteInventory("wz_ddb_awm_stock_short","wz_ddb_awm_stock_short_inventory");
