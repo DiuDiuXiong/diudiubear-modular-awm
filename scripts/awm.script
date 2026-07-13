@@ -13,7 +13,7 @@ ItemSetStackLimit("wz_ddb_awm_red_ammo",80);
 SpriteLoad("wz_ddb_awm_body_inventory_v2","items/awm_body.png",1,0,0,0);
 SpriteLoad("wz_ddb_awm_body_ingame_v2","items/awm_body.png",1,0,20,16);
 
-WeaponCreate("wz_ddb_awm","sniper",true,"wz_ddb_awm_red_ammo","a762x51");
+WeaponCopy("wz_ddb_awm","r700_1");
 ItemSetName("wz_ddb_awm","AWM");
 ItemSetDescription("wz_ddb_awm","A modular magnum-style bolt-action rifle. It accepts three AWM back assemblies, three front assemblies, two magazines, and standard scopes.");
 ItemSetSpriteInventory("wz_ddb_awm","wz_ddb_awm_body_inventory_v2");

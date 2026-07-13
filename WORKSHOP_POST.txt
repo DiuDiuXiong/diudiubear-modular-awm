@@ -2,7 +2,7 @@ TITLE
 Diu Diu Bear's Modular AWM
 
 SHORT DESCRIPTION
-Adds a powerful modular AWM, eight attachments, .338 Red Magnum ammunition, custom audio, scope support, and Barman shop availability.
+Adds a powerful modular AWM, eight attachments, .338 Red Magnum ammunition, scope support, and Barman shop availability.
 
 FULL WORKSHOP DESCRIPTION
 Build a heavy bolt-action rifle around a modular AWM receiver and tune it with dedicated back, front, and magazine assemblies.
@@ -13,7 +13,7 @@ FEATURES
 - Basic, Compressor, and Compressor Long front assemblies.
 - Basic 5-round and Long 10-round magazines.
 - Compatible with standard scopes and optics.
-- Custom firing, suppressed, and reload sounds.
+- Vanilla R700 firing and reload sounds with custom suppressed audio.
 - .338 Red Magnum ammunition with maximum armour penetration.
 
 WHERE TO FIND THE ITEMS
@@ -32,4 +32,4 @@ PRICES
 - .338 Red Magnum: 10,000 per round
 
 VERSION
-v1.0.0
+v1.0.1
