@@ -13,7 +13,7 @@ FEATURES
 - Basic, Compressor, and Compressor Long front assemblies.
 - Basic 5-round and Long 10-round magazines.
 - Compatible with standard scopes and optics.
-- Vanilla R700 firing and reload sounds with custom suppressed audio.
+- Custom firing and suppressed sounds with vanilla R700 reload audio.
 - .338 Red Magnum ammunition with maximum armour penetration.
 
 WHERE TO FIND THE ITEMS
@@ -32,4 +32,4 @@ PRICES
 - .338 Red Magnum: 10,000 per round
 
 VERSION
-v1.0.1
+v1.0.2

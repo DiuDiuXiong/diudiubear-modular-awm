@@ -1,5 +1,13 @@
--- Create the AWM suppressed sound.
+-- Create the AWM firing sounds and use the vanilla R700 reload sounds.
+SoundLoad("wz_ddb_awm_sound_unsuppressed","sounds/awm_unsuppressed.ogg");
 SoundLoad("wz_ddb_awm_sound_suppressed","sounds/awm_suppressed.ogg");
 
 WeaponModSilencerConfigure("wz_ddb_awm_front_compressor",SoundGet("wz_ddb_awm_sound_suppressed"));
 WeaponModSilencerConfigure("wz_ddb_awm_front_compressor_long",SoundGet("wz_ddb_awm_sound_suppressed"));
+
+WeaponSetSounds(
+    "wz_ddb_awm",
+    "wz_ddb_awm_sound_unsuppressed",
+    "snd_sniper_fine",
+    "snd_sniper_inizio"
+);

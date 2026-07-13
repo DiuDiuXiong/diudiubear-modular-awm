@@ -1,11 +1,11 @@
-Diu Diu Bear's Modular AWM - v1.0.1
+Diu Diu Bear's Modular AWM - v1.0.2
 
 CONTENTS
 - A modular AWM bolt-action rifle.
 - Three back assemblies, three front assemblies, and two magazines.
 - Compatible with standard scopes and optics.
-- Custom .338 Red Magnum ammunition and suppressed audio.
-- Uses the vanilla R700 firing and reload sounds.
+- Custom .338 Red Magnum ammunition and firing audio.
+- Uses the vanilla R700 reload sounds.
 - The complete platform is sold by the Barman.
 
 INSTALLATION

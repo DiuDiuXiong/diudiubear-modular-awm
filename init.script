@@ -1,4 +1,4 @@
--- Diu Diu Bear's Modular AWM v1.0.1
+-- Diu Diu Bear's Modular AWM v1.0.2
 -- Load the weapon, attachments, factory layout, sounds, and Barman stock.
 ScriptExecute("scripts/awm.script");
 ScriptExecute("scripts/awm_attachments.script");
